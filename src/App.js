@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import { MyFirstComponent } from './components/MyFirstComponent';
+import { ParentComponent } from './components/ParentComponent';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-     <MyFirstComponent/>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Proyecto 01 - Componentes en React</h1>
       </header>
+      <ParentComponent />
     </div>
   );
 }
