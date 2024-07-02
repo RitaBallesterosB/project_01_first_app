@@ -19,5 +19,5 @@ export const ParentComponent = () => {
       <ChildComponent message={message} onRespond={handleChildResponse}/>
       {response}
     </div>
-  )
+  )  
 }
